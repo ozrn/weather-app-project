@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+app.use(express.static("public")); // In order for our server to serve up static files like CSS and images, we need to use a specific fn of Express.That's something called static !!!
 
 
 
